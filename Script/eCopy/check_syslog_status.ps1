@@ -1,0 +1,1 @@
+Get-Service "Kiwi Syslog Server" | %{$_.Status}
