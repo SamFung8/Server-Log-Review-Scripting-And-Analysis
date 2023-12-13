@@ -27,12 +27,11 @@ mailBody2 = ""
 fileName = (todate - timedelta(days = 7)).strftime("%Y%m%d") + " To " + (todate).strftime("%Y%m%d")
 
 message = EmailMessage()
-message['From'] = 'team5@housingauthority.gov.hk'
-#message['To'] = 'kingshun.fung@housingauthority.gov.hk'
-message['To'] = 'kingshun.fung@housingauthority.gov.hk, tonywp.ho@housingauthority.gov.hk, pingfuk.lam@housingauthority.gov.hk, pk.cheung@housingauthority.gov.hk, andywk.lau@housingauthority.gov.hk'
+message['From'] = ''
+#message['To'] = ''
+message['To'] = ''
 
 path = r"E:/"
-#path = 'C:/Users/KingShunFung/Desktop/log_data'
 
 keywords = ["login", "logout", "major", "error"]
 keywords_2 = ["bytes read and 0 bytes written"]
