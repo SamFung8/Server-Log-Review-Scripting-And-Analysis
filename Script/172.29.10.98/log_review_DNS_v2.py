@@ -16,12 +16,12 @@ mailStatus = "Log Review(DNS) - "
 mailBody = ""
 
 message = EmailMessage()
-message['From'] = 'team5@housingauthority.gov.hk'
-message['To'] = 'kingshun.fung@housingauthority.gov.hk, kenyk.yu@housingauthority.gov.hk, andywk.lau@housingauthority.gov.hk'
-#message['To'] = 'kingshun.fung@housingauthority.gov.hk'
+message['From'] = ''
+message['To'] = ''
+#message['To'] = ''
 
 path = 'D:\syslog'
-#path = 'C:/Users/KingShunFung/Desktop/log_data'
+
 
 keywords = ["Login_Allowed", "Login_Denied", "Logout", "Password_Reset"]
 files = []
